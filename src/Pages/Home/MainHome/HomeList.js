@@ -48,14 +48,11 @@ const HomeList = () => {
 
       <Table>
 
-        {/* <TableHead>
-          <TableRow>
-            <TableCell>Photo</TableCell>
-            <TableCell>Name</TableCell>
-            <TableCell>Events</TableCell>
-            <TableCell>Time</TableCell>
-          </TableRow>
-        </TableHead> */}
+        <TableHead style={{color:"#161235", fontWeight:"bold", fontSize:"18px"}}>
+          <h3 style={{marginLeft:"15px", marginTop:"10px"}}>
+          Recent emails
+          </h3>          
+        </TableHead>
 
         <TableBody>
           {

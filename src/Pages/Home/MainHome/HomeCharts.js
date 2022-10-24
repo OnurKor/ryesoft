@@ -64,7 +64,7 @@ const HomeCharts = () => {
       <Box
         sx={{
           borderRadius: '15px',
-          backgroundColor: '#fff',
+          // backgroundColor: '#fff',
           boxShadow: '1px 1px 5px 0px #ccc',
           m: { xs: '5px' },
           p: { xs: '20px' },

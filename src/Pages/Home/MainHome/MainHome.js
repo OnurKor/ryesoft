@@ -20,7 +20,7 @@ const MainHome = () => {
                     lineHeight:'36px',
                 }}
             >
-                Good morning, James
+                Good morning, James!
             </Typography>
             
             <HomeSlider />

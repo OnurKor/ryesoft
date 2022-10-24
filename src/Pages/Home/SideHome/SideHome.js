@@ -257,7 +257,7 @@ const SideHome = () => {
           </Box>
         </Box>
       </Box>
-      <Box sx={{display:"flex", gap:"10px", backgroundColor:"white", marginLeft: "30px", marginTop:"20px", width:"90%",borderRadius:"15px" }}>
+      <Box sx={{display:"flex", gap:"10px", backgroundColor:"white", marginLeft: "30px", marginTop:"20px", width:"80%",borderRadius:"15px", boxShadow: '1px 1px 5px 0px #ccc' }}>
         <Box 
         sx={{
             width: "15px",
@@ -271,7 +271,7 @@ const SideHome = () => {
        
 
         </Box>
-        <div style={{}}>
+        <div>
         <p style={{fontSize:"18px",fontWeight:"700", marginTop:"5px"}} >Board meeting </p>
        <p style={{fontSize: "14px", fontWeight: "300", color: "gray", marginTop:"5px" }}> Feb 22 at 6:00 PM </p>
       <p style={{fontSize: "14px", fontWeight: "300", color: "gray", marginTop:"10px" }}>You have been invited to attend a
