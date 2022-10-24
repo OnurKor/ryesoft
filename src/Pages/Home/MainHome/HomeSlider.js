@@ -64,7 +64,7 @@ const HomeSlider = () => {
     <Box
       sx={{
         p: { xs: '20px' },
-        backgroundColor: '#f9f9f9'
+        backgroundColor: '#f1f1f1'
       }}
     >
       <Slider {...settings}>
