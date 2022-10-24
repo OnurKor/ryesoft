@@ -16,8 +16,8 @@ import Modal from "@mui/material/Modal";
 
 const style = {
   position: "absolute",
-  top: "26%",
-  right: "-5%",
+  top: "22%",
+  right: "-6%",
   transform: "translate(-50%, -50%)",
   width: 300,
   bgcolor: "background.paper",
@@ -35,7 +35,7 @@ const SideHome = () => {
   return (
     <Box
       sx={{
-        backgroundColor: "#f2f2fc   ",
+        backgroundColor: "#f2f2fc",
         height: "90vh",
       }}
     >
@@ -257,7 +257,7 @@ const SideHome = () => {
           </Box>
         </Box>
       </Box>
-      <Box sx={{display:"flex", gap:"10px", backgroundColor:"white", marginLeft: "30px", marginTop:"20px", width:"70%" }}>
+      <Box sx={{display:"flex", gap:"10px", backgroundColor:"white", marginLeft: "30px", marginTop:"20px", width:"90%",borderRadius:"15px" }}>
         <Box 
         sx={{
             width: "15px",
@@ -265,15 +265,15 @@ const SideHome = () => {
             backgroundColor: "#6e6bfa",
             borderRadius: "50%",
             marginLeft: "10px",
-            marginTop:"20px"
+            marginTop:"30px"
         }}
         >
        
 
         </Box>
-        <div>
-        <p style={{fontSize:"18px",fontWeight:"700"}} >Board meeting </p>
-       <p style={{fontSize: "14px", fontWeight: "300", color: "gray" }}> Feb 22 at 6:00 PM </p>
+        <div style={{}}>
+        <p style={{fontSize:"18px",fontWeight:"700", marginTop:"5px"}} >Board meeting </p>
+       <p style={{fontSize: "14px", fontWeight: "300", color: "gray", marginTop:"5px" }}> Feb 22 at 6:00 PM </p>
       <p style={{fontSize: "14px", fontWeight: "300", color: "gray", marginTop:"10px" }}>You have been invited to attend a
         meeting of the Board Directors</p></div>
       </Box>

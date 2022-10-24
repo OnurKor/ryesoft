@@ -20,14 +20,14 @@ const sliderData = [
   {
     id: '2',
     icon: <PieChartOutlineOutlinedIcon />,
-    number: "$143,624",
-    text: 'Your bank balance'
+    number: "$249,700",
+    text: 'Company bank wallet'
   },
   {
     id: '3',
     icon: <PunchClockOutlinedIcon />,
     number: "7",
-    text: 'Employees workiing today'
+    text: 'Employees working today'
   },
   {
     id: '4',
@@ -64,7 +64,7 @@ const HomeSlider = () => {
     <Box
       sx={{
         p: { xs: '20px' },
-        // backgroundColor: '#f1f1f1'
+        backgroundColor: '#f6f6f6'
       }}
     >
       <Slider {...settings}>
@@ -94,6 +94,7 @@ const HomeSliderItem = ({ item }) => {
         boxShadow: '1px 1px 5px 0px #ccc',
         m: { xs: '5px' },
         p: { xs: '20px' },
+        maxHeight:"185px"
 
       }}
     >
