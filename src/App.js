@@ -10,7 +10,7 @@ function App() {
         backgroundColor: '#f9fafc',
       }}
     >
-      <AppRouter />
+      <AppRouter/>
     </Box>
   );
 }
