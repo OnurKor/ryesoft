@@ -6,7 +6,7 @@ function App() {
   return (
     <Box
       sx={{
-        p: { xs: '10px' },
+        p: { xs: '10px'},
         backgroundColor: '#f9fafc',
       }}
     >
